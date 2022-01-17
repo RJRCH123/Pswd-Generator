@@ -1,0 +1,26 @@
+{
+  "name": "pswd-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ./src",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJRCH123/Pswd-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJRCH123/Pswd-Generator/issues"
+  },
+  "homepage": "https://github.com/RJRCH123/Pswd-Generator#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "serve": "^13.0.2"
+  }
+}
