@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pswd Generator</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/key-ico.ico">
+  </head>
+  <body>
+    <div class="container">
+      <img src="./img/locked.png" alt="locked">
+      <h2>Password Generator</h2>
+      <div class="result-box">
+        <span id="result">
+          <img src="./img/key.png" alt="password">
+        </span>
+        <button class="btn" id="clipboard">
+          <img src="./img/copy.png" alt="copy text">
+        </button>
+      </div>
+      <div class="options">
+        <div class="option">
+          <label>Password Length</label>
+          <input class="length" type="number" id="length" min="4" max="30" value="30">
+        </div>
+        <div class="option">
+          <label>Include uppercase letters</label>
+          <input type="checkbox" id="uppercase" checked>
+        </div>
+        <div class="option">
+          <label>Include lowercase letters</label>
+          <input type="checkbox" id="lowercase" checked>
+        </div>
+        <div class="option">
+          <label>Include numbers</label>
+          <input type="checkbox" id="numbers" checked>
+        </div>
+        <div class="option">
+          <label>Include symbols</label>
+          <input type="checkbox" id="symbols" checked>
+        </div>
+      </div>
+
+      <button class="btn btn-large" id="generate">
+        Generate Password
+      </button> <br>
+      <button class="btn-large btnClean" id="clean">
+        Clean
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
