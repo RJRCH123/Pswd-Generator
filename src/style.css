@@ -8,6 +8,10 @@ body {
   /* background-color: hsl(211deg 44% 24% / 61%); */
   color: #fff;
   font-family: 'Muli', sans-serif;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   /* background-image: url(img/wallpaper.jpg);*/
   
   display: flex;
@@ -40,9 +44,9 @@ h2 {
 
 .container {
   align-items: center;
-  background: linear-gradient(-45deg, #312f2f, #4b4a4a, #333333, #1f1f1f);
+  /* background: linear-gradient(-45deg, #312f2f, #4b4a4a, #333333, #1f1f1f);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 15s ease infinite; */
   box-shadow: 0px 2px 10px rgb(255 255 255 / 20%);
   padding: 2% 8%;
   /* width: 60%; */
@@ -101,7 +105,7 @@ h2 {
 
 .btn {
   border: none;
-  background-color: #181818;
+  background-color: #1b1838;
   color: #fff;
   font-size: medium;
   padding: 5%;
