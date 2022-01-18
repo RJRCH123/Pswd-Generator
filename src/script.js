@@ -6,6 +6,7 @@ const numbersEl = document.getElementById('numbers')
 const symbolsEl = document.getElementById('symbols')
 const generateEl = document.getElementById('generate')
 const clipboardEl = document.getElementById('clipboard')
+const cleanEl = document.getElementById('clean')
 
 const randomFunc = {
     lower: getRandomLower,
@@ -28,6 +29,8 @@ clipboardEl.addEventListener('click', () => {
     alert('Password copied to clipboard!')
 })
 
+
+
 generateEl.addEventListener('click', () => {
     const length = +lengthEl.value
     const hasLower = lowercaseEl.checked
@@ -37,6 +40,11 @@ generateEl.addEventListener('click', () => {
 
     resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length)
 })
+
+cleanEl.addEventListener('click', () => {
+  resultEl.innerText = '';
+})
+
 
 function generatePassword(lower, upper, number, symbol, length) {
     let generatedPassword = ''
@@ -75,3 +83,4 @@ function getRandomSymbol() {
     const symbols = '!@#$%^&*(){}[]=<>/,.'
     return symbols[Math.floor(Math.random() * symbols.length)]
 }
+
