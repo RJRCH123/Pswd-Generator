@@ -29,6 +29,10 @@ Therefore, in this phase we seek to make a more detailed virtual distribution sc
 ### 2.1.2 High Fidelity Prototyping: 💁🏼
 After having the Wireframe, the web design is made based on styles, color palette, among other resources.
 
+<div align="center">
+<img src="./src/img/Group.png" alt="Water" width="800">
+</div>
+
 ## 2.2 Result of the project: 📱
 
 Below is attached the [link to deploy the project.](https://rjrch123.github.io/Pswd-Generator/)
