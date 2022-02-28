@@ -1,3 +1,4 @@
+![](https://komarev.com/ghpvc/?username=PsswGeneraor&color=yellow)
 
 ## ÍNDICE
 * [1. Pswd-Generator](#1-Pswd-Generator )
